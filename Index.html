@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kenangan Senja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="all-content">
+
+      <!-- Nav atas -->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid"> 
+          <a class="navbar-brand" href="#" id="logo">  
+            <span class="logo-text">kenangan</span> <span class="highlight">senja</span>  
+          </a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Foto">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Kontak</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- Nav atas -->
+
+<!-- beranda -->
+<section id="home">
+  <div class="content">
+    <h3>Mulailah Hari Anda dengan<br> Kopi di Pagi Hari</h3>
+    <p>Secangkir kopi dapat menjadi sebuah inspirasi, bahwa ia tidak pernah berdusta atas nama rasa. 
+      <br>Kopi selalu punya cerita, bahwa yang hitam tidak selalu kotor, bahwa rasa pahit juga tidak
+      <br> selalu membawa kesedihan.
+    </p>
+    <p class="additional-text" id="additional-text">
+      Kopi mengajak kita untuk merenung, untuk menikmati setiap detik yang berlalu, dan untuk menghargai
+      <br>proses yang membawa kita ke tempat kita sekarang. Seperti biji kopi yang harus melalui proses
+      <br>penggilingan dan penyeduhan, begitu pula kita, yang harus melewati berbagai tantangan 
+      <br>untuk menemukan keindahan dalam hidup.
+      </br>
+      </br>
+      Jadi, nikmatilah secangkir kopi, dan biarkan ia menjadi teman dalam setiap langkah perjalananmu. 
+      <br>Karena di dalamnya tersimpan bukan hanya rasa, tetapi juga pelajaran berharga tentang kehidupan.
+     </p>
+     <button id="btn">
+      Lihat Selengkapnya
+     </button>
+  </div>
+<!-- beranda -->
+
+<!-- Notification Box -->  
+<div class="notification-box">  
+  <button class="close-btn" onclick="document.querySelector('.notification-box').style.display='none'">&times;</button>  
+  🎉 Promo Spesial: Diskon 10% untuk semua kopi setiap hari Rabu! 🎉  
+</div>  
+</section>
+ 
+
+
+ <!-- tentang -->
+<div class="about" id="about">
+  <div class="container">
+  <div class="heading">Tentang <span>Kami</span></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="./images/about.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Bangga Dengan Kopi Indonesia</h3>
+        <p>Kualitas dan Kosistensi adalah moto dan pondasi kami dalam menjalankan usaha. Kami selalu berkomitmen memakai bahan baku biji kopi yang berasal dari tempat penghasil kopi terbaik dari berbagai penjuru daerah di Indonesia.
+          <br><br>Semua biji kopi diproses menggunakan mesin-mesin terbaik di kelasnya. Dikerjakan oleh SDM putra dan putri Indonesia yang berpengalaman dan profesional.
+          </br></br>Dengan perhatian yang mendetail, kami memastikan bahwa setiap biji kopi yang kami pilih telah melalui seleksi ketat, sehingga hanya yang terbaik yang sampai ke tangan Anda.
+        </p>
+        <p class="additional-text" id="tentang">
+          Kami juga berkomitmen untuk mendukung petani lokal, menjalin kemitraan yang saling menguntungkan, dan berkontribusi pada keberlanjutan industri kopi di Indonesia.
+          Dengan harapan semua orang bisa menikmati kopi Indonesia dengan kualitas yang terbaik. Semoga kopi kami cocok dengan selera Anda.
+        </p>
+        <button id="about-btn" >Lihat Selengkapnya</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- tentang -->
+
+<!-- Paling sering dipesan -->  
+<section class="top-cards">  
+  <div class="heading2">Best <span>Seller</span></div>  
+  <div class="container">  
+      <div class="row">  
+          <div class="col-md-4 py-3 py-md-0">  
+              <div class="card">  
+                  <img src="./images/k1.png" alt="">  
+                  <div class="card-body">  
+                      <h5 class="card-title text-center">Cappucino Coffee</h5>  
+                  </div>  
+              </div>  
+          </div>  
+          <div class="col-md-4 py-3 py-md-0">  
+              <div class="card">  
+                  <img src="./images/Pisang goreng.jpeg" alt="">  
+                  <div class="card-body">  
+                      <h5 class="card-title text-center">Pisang Goreng</h5>  
+                  </div>  
+              </div>  
+          </div>  
+          <div class="col-md-4 py-3 py-md-0">  
+              <div class="card">  
+                  <img src="./images/k13.jpeg" alt="">  
+                  <div class="card-body">  
+                      <h5 class="card-title text-center">Coffee Expresso Lungo</h5>  
+                  </div>  
+              </div>  
+          </div>  
+      </div>  
+  </div>  
+</section>  
+<!-- Paling sering dipesan -->  
+
+
+<!-- Menu -->
+<section class="menu" id="menu">
+  <div class="container">
+  <div class="heading3">Menu</div>
+</div>
+<div class="container mt-5">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/k1.png"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+        Cappucino Coffee
+      </h5>
+      <p class="card-text text-center">Cappuccino yang kaya dan lembut dibuat dengan espresso yang baru diseduh.</p>  
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.58.500 <strike>Rp.65.000</strike>
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/k11.jpeg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Coffee Expresso
+      </h5>
+      <p class="card-text text-center">Minuman espresso yang kuat dan berani, cocok untuk pecinta kopi.</p>
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.67.500 <strike>Rp.75.000</strike>
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/k13.jpeg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Coffee Expresso Lungo
+      </h5>
+      <p class="card-text text-center">Kopi dengan hasil akhir yang halus, ideal untuk momen santai.</p> 
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.63.000 <strike>Rp.70.000</strike>
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/k14.jpeg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Arabika Coffee
+      </h5>
+      <p class="card-text text-center">Kopi Arabika dengan rasa dan aroma yang kaya.</p>
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.72.000 <strike>Rp.80.000</strike>
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/tahu goreng.jpg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Tahu goreng
+      </h5>
+      <p class="card-text text-center">Tahu goreng renyah disajikan dengan saus pedas.</p>
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.50.000
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/Gorengan.jpeg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Gorengan
+      </h5>
+      <p class="card-text text-center">Pilihan camilan gorengan, cocok untuk dibagikan.</p>
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.50.000
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/Pisang goreng.jpeg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Pisang Goreng
+      </h5>
+      <p class="card-text text-center">Pisang goreng disajikan dengan tepung krispy.</p>
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price">
+       Rp.50.000
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="col">
+    <div class="card h-100">
+     <img alt="#" class="card-img-top" src="./images/Roti Bakar.jpeg"/>
+     <div class="card-body">
+      <h5 class="card-title text-center">
+       Roti bakar
+      </h5>
+      <p class="card-text text-center">Roti panggang dengan pilihan topping Coklat, Vannila, Strawberry.</p>
+     </div>
+     <div class="card-footer d-flex justify-content-between align-items-center">
+      <span class="card-text price" id="harga">
+       Rp.50.000
+      </span>
+      <a class="btn btn-primary" id="btnbeli" href="https://wa.me/62895403112360">
+       Beli
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  </section>
+<!-- Menu -->
+
+<!-- Kumpulan Foto -->
+ <div class="container" id="Foto">
+  <h1>Our <span>Gallery</span></h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/foto3.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/foto2.webp" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/foto5.jpg  " alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/foto6.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/foto7.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/foto.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Kumpulan foto -->
+
+<!-- kontak -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+       <div class="heading6">Kontak <span>Kami</span></div>
+
+       <br>
+
+       <input class="form-control" type="text" placeholder="Name"><br>
+       <input class="form-control" type="email" placeholder="Email"><br>
+       <input class="form-control" type="number" placeholder="Number"><br>
+       <button id="contact-btn" onclick="window.location.href='https://wa.me/62895403112360'">Kirim</button>
+      </div>
+      <div class="col-md-5" id="col">
+        <h1>Info</h1>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> <a href="mailto:customer.care@Kenangansenja.co.id" style="color: white">customer.kenangansenja.co.id</a></p>
+          <p><i class="fas fa-phone"></i> 08511111111 ( 09.00 - 18.00 WIB )</p>
+          <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/62895403112360" style="color: white;">0895403112360 ( 09.00 - 18.00 WIB )</a></p>
+          <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/pesono.indonesia/" style="color: white;">@Kenangansenja</a></p>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- kontak -->
+
+<!-- footer -->
+<footer id="footer">
+  <div class="copyright text-center">
+    &copy; Copyright <strong><span>Kenangansenja</span></strong>. All Rights Reserved
+  </div>
+</footer>
+
+  <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
